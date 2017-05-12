@@ -4,6 +4,20 @@
 		"baseFrame": 0,
 		"latinName": "Helianthus",
 		"cycle": "annual",
-		"family": "Asteraceae"
+		"family": "Asteraceae",
+		"lifeStages": ["baby", "young", "mature", "flowering", "seeding", "drying"],
+		"growthData": [20, 40, 60, 80, 100],
+		"harvestData": {"flowering": "Sunflower Flower", "seeding": "Sunflower Seed", "drying": "Sunflower Seed"}
+	},
+	{
+		"name": "Dandelion",
+		"baseFrame": 6,
+		"latinName": "Taraxacum",
+		"cycle": "annual",
+		"family": "Asteraceae",
+		"lifeStages": ["baby", "young", "mature", "flowering", "seeding"],
+		"growthData": [20, 40, 60, 80],
+		"harvestData": {"mature": "Dandelion Leaf", "flowering": "Dandelion Flower", "seeding": "Dandelion Seed"},
+		"replenish": true
 	}
 ]

@@ -15,7 +15,7 @@ GardenHero.Soil = function(state, x, y, row, col, data) {
 	this.col = col;
 
 	this.name = "soil";
-	// this.quality = data.quality || 'loam'; // sand, clay, loam
+	this.quality = 'loam'; // sand, clay, loam
 	// this.wetness = data.wetness || 'damp'; // very dry, dry, damp, wet, very wet;
 	// //this.nitrogen
 	// this.organicMatter = data.organicMatter || 3; // in %

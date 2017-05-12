@@ -16,12 +16,15 @@ GardenHero.PreloadState = {
 
 		//load images
 	    this.load.spritesheet('ground-tiles', 'assets/images/ground-tiles.png', 32, 32, 1);
-	    this.load.spritesheet('plants', 'assets/images/plants.png', 32, 32, 6);
-	    this.load.spritesheet('icons', 'assets/images/icons.png', 32, 32, 2);
+	    this.load.spritesheet('plants', 'assets/images/plants.png', 32, 32, 12);
+	    this.load.spritesheet('items', 'assets/images/items.png', 32, 32, 8);
+
+	    this.load.spritesheet('icons', 'assets/images/icons.png', 32, 32, 5);
 	    this.load.spritesheet('player', 'assets/images/player.png', 32, 32, 1);
 
 	    // load json
 	    this.load.json('plantDB', 'assets/data/plantDB.json');
+	    this.load.json('itemDB', 'assets/data/itemDB.json');
 	    this.load.json('level-1', 'assets/data/level-1.json');
 	    
 	},

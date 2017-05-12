@@ -15,7 +15,9 @@ GardenHero.Player = function(state, x, y, data ) {
 
 	this.state.game.camera.follow(this);
 
-	this.onHand
+	// empty handed click to inspect soil.plant or access building,
+	// click with item on hand to use item
+	this.onHand = null;
 
 
 
@@ -31,6 +33,11 @@ GardenHero.Player.prototype.constructor = GardenHero.Player;
 
 
 GardenHero.Player.prototype.update = function(){
+
+	// no movement conditions
+	if (this.state.UI.isAlert){ //  || this.state.UI.isDraggingItem
+		return;
+	}
 	
 	var leftKey = this.state.aKey.isDown || this.state.arrowKeys.left.isDown;
 	var rightKey = this.state.dKey.isDown || this.state.arrowKeys.right.isDown;

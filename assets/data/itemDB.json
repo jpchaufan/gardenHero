@@ -1,0 +1,10 @@
+[
+	{"name": "Shovel", "type": "tool", "frame": 0},
+	{"name": "Sunflower Seed", "type": "seed", "for": "Sunflower", "frame": 1, "stackable": true},
+	{"name": "Shears", "type": "tool", "frame": 2},
+	{"name": "Toolshed", "type": "structure", "frame": 3},
+	{"name": "Sunflower Flower", "type": "flower", "frame": 4, "stackable": true},
+	{"name": "Dandelion Leaf", "type": "food", "frame": 5, "stackable": true},
+	{"name": "Dandelion Flower", "type": "flower", "frame": 6, "stackable": true},
+	{"name": "Dandelion Seed", "type": "seed", "for": "Dandelion", "frame": 7, "stackable": true}
+]
